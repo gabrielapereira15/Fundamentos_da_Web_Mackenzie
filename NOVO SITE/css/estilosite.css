@@ -1,0 +1,111 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+#titulo-principal { 
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    border-bottom: 10px solid black;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+#imgcv {
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5%
+}
+
+.container, .curiosidade {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.navegacao-site {
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    width: 15%;
+    position: relative;
+    top: 310px;
+}
+
+.navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+
+.navegacao-site h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}
+
+strong {
+    font-weight: bold;
+}
+
+h2 {
+    text-align: left;
+    margin: 5%;
+    text-transform: uppercase;
+}
+
+time {
+    text-align: justify;
+    margin: 5%;
+}
+
+a:hover{
+    text-decoration:underline;
+    text-transform: uppercase;
+}

@@ -1,0 +1,51 @@
+body {
+    padding-right: 0%;
+    line-height: 1.5;
+}
+
+#titulo-principal { 
+    background-color:coral;
+    color: #FFF;
+    text-align: center;
+    padding: 25px;
+    margin: 1%;
+    border-bottom: 10px solid black;
+    font-size: 60px;
+}
+
+#imgcv {
+    float: right;
+    margin: 5%;
+}
+
+h2 {
+    text-align: left;
+    margin: 5%;
+    text-transform: uppercase;
+}
+
+time {
+    text-align: justify;
+    margin: 5%;
+}
+
+article {
+    font-family:serif;
+    margin: 5%;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+a:hover{
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: right;
+}

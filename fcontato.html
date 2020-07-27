@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" type="text/css" href="estiloform.css">
+        
+        <title>Contato-Blog da Gabi</title>
+        
+    </head>
+    
+    <body>
+        
+        <h1>FORMULÁRIO DE CONTATO</h1>
+        
+        <table border="1" align="center" id="tabela">
+            
+            <form id="fcontato" action="#" method="post">
+                <tr>
+                    <td><label for="nome">Nome:</label></td>
+                    <td><input type="text" id="nome" placeholder="Digite seu nome" autofocus required/></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="idade">Idade:</label></td>
+                    <td><input type="number" id="idade" placeholder="Informe sua idade" required/></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="data">Data de contato:</label></td>
+                    <td> <input type="date" id="data" required/></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="telefone">Telefone:</label></td>
+                    <td><input type="tel" id="telefone" placeholder="(xx)xxxxx-xxxx" required/></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="email">E-mail:</label></td>
+                    <td><input type="email" id="email" placeholder="Digite seu e-mail" required/></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="url">Rede social (Facebook, Twitter, Instagram, Linkedin, GitHub)</label></td>
+                    <td><input type="url" id="rede_social" placeholder="Digite aqui uma rede social" required/></td>
+                </tr>
+                
+                <tr>
+                    <td> <label for="arquivo">Quer me enviar um arquivo?</label></td>
+                    <td><input type="file" id="arquivo"/></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="msg">Mensagem:</label></td>
+                    <td><textarea id="msg" placeholder="Digite aqui sua mensagem" required></textarea></td>
+                </tr>
+                
+                <tr class="submitereset">
+                    <td><button type="submit">Enviar sua mensagem</button></td>
+                    <td><button type="reset">Limpar formulário</button></td>
+                </tr>
+                
+            </form>
+            
+        </table>
+    
+        <script>
+            document.write("<br><br>Criado por: Gabriela Nascimento Oliveira Pereira")
+        </script>
+        
+    </body>
+    
+</html>

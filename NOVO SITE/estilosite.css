@@ -1,0 +1,73 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+#titulo-principal { 
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin:1%;
+    margin-top: 3.2%
+}
+
+#imgcv {
+    float: right;
+    box-sizing: border-box;
+    border: 10px solid black;
+    position: relative;
+    top: 0%;
+    right: 0%;
+    margin: 5%;
+}
+
+.dados-pessoais {
+    text-align: justify;
+    margin: 5%;
+}
+
+time {
+    text-align: justify;
+    margin: 5%;
+}
+
+.container, .curiosidade {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+    text-align: justify;
+}
+
+a:hover{
+    text-decoration:unset;
+    text-transform: uppercase;
+}
+
+.icones-redes-sociais {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    display: block;
+    margin-bottom: 10%;
+    margin-left: 42%;
+}
+
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+}
+
+
